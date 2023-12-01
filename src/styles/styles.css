@@ -1,0 +1,243 @@
+.MiNavbar{
+  background-color: #3C486B;
+}
+#footer {
+  padding: 4em 0 2em 0;
+  background-color: #3C486B;
+  text-align: center;
+  color:#F0F0F0;
+}
+#footer .inner {
+  width: 50%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 980px) {
+  #footer .inner {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #footer .inner {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 736px) {
+  #footer {
+    padding: 3em 0 1em 0;
+  }
+}
+
+.top-div  {
+  background-color: #F0F0F0;
+  margin-top: 3rem;
+  width: 100%;
+  height: 100%;
+  padding-top: 3rem;
+}
+
+/*Log in page///////////////*/
+.log-in-input-div{
+  padding: 25px;
+}
+/* .log-in-inputs{
+  margin: auto;
+  gap: 10px;
+} */
+.log-in-form{
+  /* display: flex; */
+  /* justify-content: center;
+  margin: auto; */
+  width: 100%;
+
+}
+.form-container{
+  display: grid;
+  place-items: center;
+  /* min-height: 100vh; */
+}
+.log-in-form div{
+  /* background-color: red; */
+  margin: 5px 0px;
+}
+.log-in-form div input{
+  width: 60%;
+  border-radius: 10px;
+  border: 0;
+  padding: 2px;
+  transition:  background-color 2s ;
+}
+.log-in-form div input::placeholder{
+  padding-left: 1rem;
+}
+.log-in-inputs button{
+  margin-top: 20px;
+  width: 40%;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #667bb7;
+  margin-bottom: 20px;
+  border: 0;
+  transition:  background-color 1s;
+}
+.log-in-inputs button:hover{
+  background-color: #8ab4f8;
+}
+.log-in-remember-me-div{
+  padding: 10px;
+}
+.log-in-remember-me-div>div{
+  margin-top: 10px;
+}
+.log-in-error{
+  color: red;
+}
+
+
+/*///////////////////////////////////////////////////////////////////////*/
+
+/*IMAGES*/
+.imgEducation {
+  width :100%;
+}
+.imgStudy {
+  width : 100%;
+}
+.giphy-embed{
+  width: 480; 
+  height: 244; 
+  position: relative;
+  align-items: center;
+  margin-top: 20px;
+}
+.ONL-div h1 {
+  color: #F9d949;
+  font-size: 95px;
+}
+.ONL-div iframe {
+  width: 80%;
+}
+/*///////////////////////////////////////////////////////////////////////*/
+
+
+/*COURSES*/
+.images{
+  margin-top: 20px;
+}
+.card{
+  width: 18rem;
+  position: relative;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  
+}
+/*///////////////////////////////////////////////////////////////////////*/
+
+/*SINGLE-COURSE*/
+.single-course-title{
+  padding: 3rem;
+  color: #3C486B;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.weekly {
+  flex: 1; /* Ocupa el espacio disponible */
+  padding: 10px;
+}
+.infoDump {
+  flex: 0 0 30%; /* Anchura fija del 30% sin crecimiento ni reducción */
+  margin-left: 5vh;
+  padding: 10px;
+}
+.info{
+border: 1px solid #ccc;
+padding: 10px;
+}
+.video-container{
+  display: flex; /* Utilizamos flexbox para colocar elementos en línea */
+  align-items: center; /* Alineamos verticalmente al centro */
+  justify-content: space-between;
+  /* margin-left: 15vh;
+  margin-right: 30vh; */
+}
+.quizz-container{
+  margin: 20px;
+}
+
+.single-course-p{
+  border: 0;
+  padding: 10px;
+}
+.single-course-iframe{
+  margin-top: 20px;
+}
+.single-course-button{
+  text-align: center;
+  border-radius: 5px;
+}  
+/*///////////////////////////////////////////////////////////////////////*/
+
+/*quiz*/
+.quiz {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  width: 50%;
+  margin: 20px auto;
+  margin-top: 5rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+} 
+.quiz-h1 {
+  font-size: 24px;
+}
+.question {
+  margin: 20px 0;
+}
+.quiz p{
+  font-size: 16px;
+}
+
+.quiz label {
+  display: block;
+  margin: 10px 0;
+}
+.quiz input[type="radio"] {
+  margin-right: 10px;
+}
+.progress {
+  height: 10px;
+  background-color: #ccc;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.progress-bar {
+  height: 100%;
+  background-color: #007bff;
+  border-radius: 5px;
+}
+.quiz button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  
+  cursor: pointer;
+}
+/*///////////////////////////////////////////*/
+
+/*About ut*/
+.contact{
+  padding-bottom: 50px;
+  /* background-color: #3C486B; */
+}
+.imgAboutUs{
+  width:100%;
+  /* margin-top:50px; */
+}
+/*////////////////////*/
