@@ -36,11 +36,13 @@ const MainPage = () =>{
     const res = await axios['post'](`${rootEndpoint}/api/log-in`,body)
     
     if (res.data.errorMessage){
-      return (res.data.errorMessage)
+      alert(res.data.errorMessage)
+      return 
     }
     if (res.data.data){
       // console.log(res.data.data)
       localStorage.setItem("user",res.data.data.name)
+
       window.location.href= '/courses'
       return 
     }
