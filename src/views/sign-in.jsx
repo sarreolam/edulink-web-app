@@ -3,7 +3,7 @@ import axios from "axios"
 import { rootEndpoint } from "../utils/constants"
 import '../styles/styles.css'
 
-const SingIn = ({activeUser}) => {
+const SignIn = ({activeUser}) => {
   const [userInfo, setUserInfo] = useState({
     user : '',
     password: '',
@@ -11,7 +11,7 @@ const SingIn = ({activeUser}) => {
     email:'',
   })
 
-  const singIn = async () =>{
+  const signIn = async () =>{
     // console.log(userInfo)
 
     if(userInfo.password!==userInfo.coPassword){
@@ -44,7 +44,7 @@ const SingIn = ({activeUser}) => {
     <div className="row justify-content-center log-in-inputs">
 
       <div className="col-6 ">
-        <h3>Sing in</h3>
+        <h3>Sign in</h3>
       </div>
       <div className="col-12 form-container">
 
@@ -72,7 +72,7 @@ const SingIn = ({activeUser}) => {
             </div>
             
             <div className="col-12 col-md-8">
-              <button onClick={singIn}>Sing in</button>
+              <button onClick={signIn}>Sign in</button>
             </div>  
           </div>
         </div>
@@ -84,4 +84,4 @@ const SingIn = ({activeUser}) => {
   )
 }
 
-export default SingIn
+export default SignIn
