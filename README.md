@@ -21,6 +21,6 @@ Make sure you have the following installed:
    cd edulink
 
 
-🛠️ Technologies Used
-Frontend: React, HTML, CSS, JavaScript
-Backend: https://github.com/sarreolam/edulink-api
+### 🛠️ Technologies Used
+- Frontend: React, HTML, CSS, JavaScript
+- Backend: https://github.com/sarreolam/edulink-api
